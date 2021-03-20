@@ -142,29 +142,17 @@ footer {
   flex-direction: column;
 }
 
+footer p {
+  margin: 0;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
 }
 
-footer p {
-  margin: 0;
-}
-
-.footer-content{
-
-}
-
 footer .contact {
   margin-bottom: 50px;
-}
-
-address{
-
-}
-
-.social{
-
 }
 
 footer .social-icons {
@@ -322,6 +310,8 @@ article .features-item-description{
 
 .faq-content {
   margin-bottom: 50px;
+}
+
 }
 
 
@@ -543,11 +533,57 @@ footer .copyright {
 .faq h2 {
   width: 100%;
 }
+
 }
 
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
+
+/* General styles */
+.content-wrapper {
+  max-width: 960px;
 }
+
+/* Hero */
+.hero-area h1 {
+  width: 60%;
+}
+
+/* Aside */
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+/* Features */
+.features article {
+  flex-basis:33%;
+}
+
+.features h2 {
+  width: 90%;
+}
+
+/* Reviews */
+
+.reviews article div {
+  width: 42%;
+}
+
+/* ==========================================================================
+ About Page
+ ========================================================================== */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+}
+
+}
+
 
 /* ==========================================================================
    Print styles.
