@@ -97,6 +97,7 @@ body {
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
    text-align: left;
+   color:  #e2e3ed;
 }
 
 ul,
@@ -112,12 +113,14 @@ a {
 h2 {
    font-family: 'Poppins', sans-serif;
    font-size: 1.875em;
+   font-weight: 500;
 }
 
 h3,
 h4 {
    font-family: 'Poppins', sans-serif;
    font-size: 1.125em;
+   font-weight: 500;
    margin: 20px 0;
 }
 
@@ -148,6 +151,7 @@ address a {
 
 header,
 footer {
+      background-color: #202322;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -169,8 +173,9 @@ header .content-wrapper {
 }
 
 .header-divider {
-  width: 100%;
+  background: #3a3a3a;
   height: 1px;
+  width: 100%;
   margin-top: 10px 0 20px 0;
 }
 
@@ -180,6 +185,9 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -192,6 +200,7 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer p {
@@ -238,30 +247,49 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-section .content-wrapper{
-
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-aside .content-wrapper{
-
+aside .form {
+  margin-top: 30px;
 }
 
-.form-description{
-
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
 }
 
-.form{
-
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
+
 /* Features */
 
 .features {
@@ -287,6 +315,7 @@ aside .content-wrapper{
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -301,6 +330,7 @@ article .features-item-description{
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -308,6 +338,7 @@ article .features-item-description{
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3{
@@ -320,6 +351,7 @@ article .features-item-description{
    ========================================================================== */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,6 +359,7 @@ article .features-item-description{
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,6 +375,7 @@ article .features-item-description{
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -357,7 +391,12 @@ article .features-item-description{
 }
 
 .faq h2 {
+  line-height: 1;
   margin-bottom: 40px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 .faq-content {
