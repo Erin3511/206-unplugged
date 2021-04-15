@@ -94,15 +94,17 @@ html {
 }
 
 body {
+   color:  #e2e3ed;
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
    text-align: left;
-   color:  #e2e3ed;
 }
 
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -114,6 +116,7 @@ h2 {
    font-family: 'Poppins', sans-serif;
    font-size: 1.875em;
    font-weight: 500;
+   margin: 0;
 }
 
 h3,
@@ -130,11 +133,11 @@ p {
 }
 
 img {
-	width: 100%;
+    width: 100%;
 }
 
 figure {
-  margin: 0;
+    margin: 0;
 }
 
 address {
@@ -150,11 +153,11 @@ address {
 
 header,
 footer {
-      background-color: #202322;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
+  background-color: #202322;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Header Styles */
@@ -164,11 +167,11 @@ header{
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
 }
 
 header figure {
@@ -187,20 +190,20 @@ header figure {
 }
 
 header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
 header nav ul li {
@@ -210,8 +213,8 @@ header nav ul li {
 /* Footer Styles */
 
 footer {
-  flex-direction: column;
   text-align: center;
+  flex-direction: column;
 }
 
 footer p {
@@ -250,7 +253,6 @@ footer .social-icons p i {
 footer .copyright {
   margin: 20px 0;
 }
-
 
 /* --------------- Mobile Styles --------------- */
 
@@ -597,7 +599,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 35%;
+  width: 40%;
   margin: 0;
 }
 
@@ -617,6 +619,10 @@ aside .content-wrapper .form {
 
 .features .features-item-description {
   width: 62%;
+}
+
+.features i {
+  margin-bottom: 30px;
 }
 
 /* Reviews */
@@ -663,6 +669,11 @@ footer h4 {
 
 footer p {
     line-height: 1.285;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
@@ -766,7 +777,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 40%;
+  width: 30%;
 }
 
 .form-description p {
@@ -787,6 +798,7 @@ aside .content-wrapper .form {
 .reviews article div {
   width: 42%;
 }
+
 .reviews h2 {
   padding-bottom: 50px;
 }
@@ -825,6 +837,7 @@ FAQ Page
 .faq p {
     font-size: 1.125em;
     line-height: 1;
+}
 }
 
 /* ==========================================================================
