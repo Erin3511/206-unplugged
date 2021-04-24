@@ -160,9 +160,7 @@ footer {
   flex-flow: row wrap;
 }
 
-/* Header Styles */
-
-header{
+header {
   padding: 15px 0;
 }
 
@@ -175,18 +173,18 @@ header .content-wrapper {
 }
 
 header figure {
-   width: 60%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
   background: #3a3a3a;
   height: 1px;
   width: 100%;
-  margin-top: 10px 0 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -263,7 +261,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background-image: url(../img/jake-melara-30679-unsplash.jpg);
+  background-image: url('../img/unplugged-retreat.jpg');
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -318,7 +316,7 @@ input[type=button] {
 /* Features */
 
 .features {
-  background-image: url(../img/rawpixel-800820-unsplash1.jpg);
+  background-image: url('../img/unplugged-retreat-features.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -375,74 +373,74 @@ input[type=button] {
    About Page
    ========================================================================== */
 
-.mission {
-  background-color: #527158;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+ .mission {
+   background-color: #527158;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
-.contact-section {
-  background-color: #2a423a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+ .map figure {
+   width: 100%;
+   height: 0;
+   padding-bottom: 125%;
+   overflow: hidden;
+   position: relative;
+ }
 
-.contact-content p {
-  margin: 0;
-}
+ .map iframe {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
 
-.map figure {
-    width: 100%;
-    height: 0;
-    padding-bottom: 125%;
-    overflow: hidden;
-    position: relative;
-}
+ .contact-section {
+   background-color: #2a423a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
-.map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+ .contact-content p {
+   margin: 0;
+ }
 
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
 
-.faq {
-  background-color: #527158;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+ .faq {
+   background-color: #527158;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
-.faq .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  margin: 50px 0 0 0;
-}
+ .faq .content-wrapper {
+   margin: 50px 0 0 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
-.faq h2 {
-  line-height: 1;
-  margin-bottom: 40px;
-}
+ .faq h2 {
+   margin-bottom: 40px;
+   line-height: 1;
+ }
 
-.faq-content h4 {
-  line-height: 1.333;
-}
+ .faq-content {
+   margin-bottom: 50px;
+ }
 
-.faq-content {
-  margin-bottom: 50px;
-}
+ .faq-content h4 {
+   line-height: 1.333;
+ }
 
 /* ==========================================================================
    Helper classes
@@ -685,56 +683,55 @@ footer .copyright {
  ========================================================================== */
 
 .mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 20px;
 }
 
 .mission-content p {
-  width: 45%;
+ width: 45%;
 }
 
 .map figure {
-    padding-bottom: 45.5%;
+ padding-bottom: 45.5%;
 }
 
 .contact-section .content-wrapper h2 {
-  width: 80%;
+ width: 80%;
 }
 
 .contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
 }
 
 .contact-content h4 {
-  font-size: 1.5em;
+ font-size: 1.5em;
 }
 
 /* ==========================================================================
  FAQ Page
  ========================================================================== */
 
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+ .faq .content-wrapper {
+   justify-content: space-between;
+ }
 
-.faq-content {
-  flex-basis: 45%;
-}
+ .faq-content {
+   flex-basis: 45%;
+ }
 
-.faq h2 {
-  width: 100%;
-}
+ .faq h2 {
+   width: 100%;
+ }
 
-.faq h4,
-.faq p {
-    font-size: .875em;
-    line-height: 1.125;
-}
-
+ .faq h4,
+ .faq p {
+     font-size: .875em;
+     line-height: 1.125;
+ }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -808,21 +805,23 @@ aside .content-wrapper .form {
 footer h4 {
   font-size: 1.875em;
 }
+
 /* ==========================================================================
  About Page
  ========================================================================== */
  .map figure {
-     padding-bottom: 37.5%;
+   padding-bottom: 37.5%;
  }
 
-.mission h2,
-.contact-section .content-wrapper h2 {
-  width: 95%;
-  font-size: 3em;
-}
-.contact-content h4 {
-  font-size: 1.875em;
-}
+ .mission h2,
+ .contact-section .content-wrapper h2 {
+     width: 95%;
+     font-size: 3em;
+ }
+
+ .contact-content h4 {
+   font-size: 1.875em;
+ }
 
 
 /* ==========================================================================
